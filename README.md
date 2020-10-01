@@ -15,11 +15,11 @@ nginx: [warn] the "user" directive makes sense only if the master process runs w
 nginx: [emerg] mkdir() "/var/cache/nginx/client_temp" failed (13: Permission denied)
 
 # Docker images
-see https://hub.docker.com/r/mohdtabish999/product-ui 
-docker build -t mohdtabish999/product-ui:1.0 . 
-docker run -p 80:8080 mohdtabish999/product-ui 
-docker exec -it <containerid> sh 
-go to browser localhost
+see https://hub.docker.com/r/mohdtabish999/product-ui  <br />
+    docker build -t mohdtabish999/product-ui:1.0 . <br />
+    docker run -p 80:8080 mohdtabish999/product-ui <br />
+    docker exec -it <containerid> sh <br />
+go to browser localhost <br />
 
 
 # ProductUi

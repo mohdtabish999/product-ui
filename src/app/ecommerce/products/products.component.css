@@ -1,0 +1,23 @@
+.padding-0 {
+    padding-right: 0;
+    padding-left: 1;
+}
+
+.img1 {
+    object-fit: cover; /*this makes the image in src fit to the size specified below*/
+    width: 100%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+    height: 80%;
+  }
+
+  .img2 {
+    float: center;
+    height:  220px;
+    width: 100%;
+    object-fit: cover;
+}
+.img3 {
+    float: left;
+    width:  100px;
+    height: 100%;
+    background-size: cover;
+}
